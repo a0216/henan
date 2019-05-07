@@ -12,7 +12,7 @@ export default {
     
     data() {
         return {
-            msg:"传值到C"
+            msg:"传值到D"
         };
     },
     components:{ litter },
