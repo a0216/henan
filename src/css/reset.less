@@ -1,0 +1,91 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*:before,
+  *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    user-select:none;
+}
+
+input, textarea {
+    user-select: text;
+}
+
+body {
+	font-family: "PingFangSC-Regular", "PingFangSC-Medium", "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var, i {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	border: none;
+    vertical-align: middle;
+    pointer-events: none
+}
+
+ol, ul, li {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+.clearfix::after,.clearfix::before {
+	content: " ";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+html, body {
+	min-height: stretch;
+	overflow-x: hidden;
+}
+
+.empty-box {
+	width: 100%;
+	height: 1.2rem;
+}
+
+i, span {
+	display: inline-block;
+}

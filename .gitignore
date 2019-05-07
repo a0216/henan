@@ -1,0 +1,13 @@
+/*
+!/dll/
+/dll/*
+!/dll/webpack.dll.config.babel.js
+!/src/
+!/build/
+!/template/
+!.babelrc
+!.gitignore
+!README.md
+!*.sh
+!*.js
+!package.json
