@@ -12,13 +12,13 @@ export default {
     
     data() {
         return {
-            msg:"传值到A"
+            msg:"传值到B"
         };
     },
     components:{ litter },
     methods: {
        todo(item){
-           alert(item)
+           alert(item);
        }
     }
 }
